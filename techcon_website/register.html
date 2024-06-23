@@ -13,36 +13,33 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <form action="#" method="POST">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
+            <input type="email" id="email" name="email" required><br><br>
+        
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <label for="confirm-password">Confirm Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
-
-            <label>
-                <input type="checkbox" name="terms" required>
-                I agree to the <a href="#">terms and conditions</a>
-            </label>
-
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms"> I agree to the terms and conditions</label><br><br>
+        
             <button type="submit">Register Now</button>
         </form>
     </main>
-
     <footer>
-        <p>&copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon. All rights reserved. Copyright TechCon 2024.</p>
     </footer>
 </body>
 </html>
